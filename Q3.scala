@@ -18,7 +18,7 @@ object three{
         if(i < 0 || i >= str.length()) 
             return "not a valid index"
         else {
-            return str.updated(i, if(str(i).isLower) str(i).toUpper else str(i))
+            return str.updated(i, str(i).toUpper)
         }
     }
 
