@@ -1,7 +1,9 @@
 object Q2{
     def main (args: Array[String]): Unit = {
-        var squreNumbers: List[Int] = calculateSquare(List(1, 2, 3, 4, 5));
-        println(squreNumbers);
+        println("Enter a list of numbers separated by spaces:")
+        val list = scala.io.StdIn.readLine().split(" ").map(_.toInt).toList
+
+        println(calculateSquare(list));
     }
 
     val calculateSquare = (numbers: List[Int]) =>{
