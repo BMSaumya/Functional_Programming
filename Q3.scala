@@ -1,12 +1,7 @@
 object three{
 
-    def toUpper(a: String):String={
-        return a.toUpperCase()
-    }
-
-    def toLower(b: String): String={
-        return b.toLowerCase()
-    }
+    val toUpper : String => String = (str : String) => {str.toUpperCase()} 
+    val toLower : String => String = (str : String) => {str.toLowerCase()}
 
     def formatNames(name: String, f:(String)=> String): String={
         return f(name)

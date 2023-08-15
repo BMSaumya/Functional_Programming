@@ -1,12 +1,7 @@
 object Q3_8{
 
-    def toUpper(a: String):String={
-        a.toUpperCase()
-    }
-
-    def toLower(b: String): String={
-        b.toLowerCase()
-    }
+    val toUpper : String => String = (str : String) => {str.toUpperCase()} 
+    val toLower : String => String = (str : String) => {str.toLowerCase()}
 
     def formatNames(name: String, f:(String)=> String): String={
         f(name)
