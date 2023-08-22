@@ -16,7 +16,7 @@ class Account(n:Int, b:Double) {
     override def toString = "Account "+acnumber+" : " + balance
 }
 
-object Q3_9{
+object Q3_9 extends App{
     var a1 = new Account(1, 1000)
     var a2 = new Account(2, 2000)
   
