@@ -1,4 +1,4 @@
-object Q1_9{
+object Q2_9{
 
     class rational(unum1: Int, unum2: Int, dnum1: Int, dnum2: Int){
         def un1 = unum1
